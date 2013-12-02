@@ -1,5 +1,5 @@
-#ifndef __UWAnalysis_DataFormats_CompositeRefCandidateTMEt_h__
-#define __UWAnalysis_DataFormats_CompositeRefCandidateTMEt_h__
+#ifndef __BrownAnalysis_DataFormats_CompositeRefCandidateTMEt_h__
+#define __BrownAnalysis_DataFormats_CompositeRefCandidateTMEt_h__
 
 /** \class CompositeRefCandidateTMEt
  *
