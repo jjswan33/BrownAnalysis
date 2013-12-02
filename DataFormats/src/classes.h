@@ -1,8 +1,8 @@
 
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEtFwd.h"
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateTMEt.h"
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateTMEtFwd.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEtFwd.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateTMEt.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateTMEtFwd.h"
 #include "DataFormats/Common/interface/Wrapper.h"
 #include "DataFormats/PatCandidates/interface/Electron.h"
 #include "DataFormats/PatCandidates/interface/Muon.h"
@@ -11,7 +11,7 @@
 
 
 namespace {
-  struct UWanalysis_DataFormats_dictionary {
+  struct BrownAnalysis_DataFormats_dictionary {
     /// create dictionaries for DiCandidatePair objects
     DiCandidatePair dummyDiCandidatePair;
     edm::Wrapper<DiCandidatePair> dummyDiCandidatePairWrapper;
