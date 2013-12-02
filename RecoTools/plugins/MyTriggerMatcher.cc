@@ -1,4 +1,4 @@
-#include "UWAnalysis/RecoTools/plugins/MyTriggerMatcher.h"
+#include "BrownAnalysis/RecoTools/plugins/MyTriggerMatcher.h"
 #include "FWCore/Framework/interface/MakerMacros.h"
 
 typedef MyTriggerMatcher<pat::Muon> MuonTriggerMatcher;

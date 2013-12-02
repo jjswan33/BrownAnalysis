@@ -2,8 +2,8 @@
 // $Id: DiCandidatePairSelector.h,v 1.14 2012/02/12 17:58:18 ojalvo Exp $
 //
 
-#ifndef UWAnalysis_RecoTools_DiCandidatePairSelector_h
-#define UWAnalysis_RecoTools_DiCandidatePairSelector_h
+#ifndef BrownAnalysis_RecoTools_DiCandidatePairSelector_h
+#define BrownAnalysis_RecoTools_DiCandidatePairSelector_h
 
 #include "DataFormats/Common/interface/RefVector.h"
 
@@ -12,7 +12,7 @@
 #include "CommonTools/UtilAlgos/interface/ObjectSelector.h"
 #include "CommonTools/UtilAlgos/interface/SingleElementCollectionSelector.h"
 
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
 
 #include <vector>
 

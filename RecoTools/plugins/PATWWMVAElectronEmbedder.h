@@ -3,7 +3,7 @@
 // Package:    PATMuonTrackVetoSelector
 // Class:      PATMuonTrackVetoSelector
 // 
-/**\class PATMuonTrackVetoSelector PATMuonTrackVetoSelector.cc UWAnalysis/PATMuonTrackVetoSelector/src/PATMuonTrackVetoSelector.cc
+/**\class PATMuonTrackVetoSelector PATMuonTrackVetoSelector.cc BrownAnalysis/PATMuonTrackVetoSelector/src/PATMuonTrackVetoSelector.cc
 
  Description: <one line class summary>
 
@@ -33,7 +33,7 @@
 
 #include "RecoEgamma/EgammaTools/interface/ConversionTools.h"
 
-#include "UWAnalysis/RecoTools/interface/ElectronIDMVA.h"
+#include "BrownAnalysis/RecoTools/interface/ElectronIDMVA.h"
 
 
 #include "DataFormats/BeamSpot/interface/BeamSpot.h"
@@ -68,12 +68,12 @@ class PATWWMVAElectronEmbedder : public edm::EDProducer {
     mva = new ElectronIDMVA();
 
 
-    edm::FileInPath file1("UWAnalysis/Configuration/data/Subdet0LowPt_NoIPInfo_BDTG.weights.xml");
-    edm::FileInPath file2("UWAnalysis/Configuration/data/Subdet1LowPt_NoIPInfo_BDTG.weights.xml");
-    edm::FileInPath file3("UWAnalysis/Configuration/data/Subdet2LowPt_NoIPInfo_BDTG.weights.xml");
-    edm::FileInPath file4("UWAnalysis/Configuration/data/Subdet0HighPt_NoIPInfo_BDTG.weights.xml");
-    edm::FileInPath file5("UWAnalysis/Configuration/data/Subdet1HighPt_NoIPInfo_BDTG.weights.xml");
-    edm::FileInPath file6("UWAnalysis/Configuration/data/Subdet2HighPt_NoIPInfo_BDTG.weights.xml");
+    edm::FileInPath file1("BrownAnalysis/Configuration/data/Subdet0LowPt_NoIPInfo_BDTG.weights.xml");
+    edm::FileInPath file2("BrownAnalysis/Configuration/data/Subdet1LowPt_NoIPInfo_BDTG.weights.xml");
+    edm::FileInPath file3("BrownAnalysis/Configuration/data/Subdet2LowPt_NoIPInfo_BDTG.weights.xml");
+    edm::FileInPath file4("BrownAnalysis/Configuration/data/Subdet0HighPt_NoIPInfo_BDTG.weights.xml");
+    edm::FileInPath file5("BrownAnalysis/Configuration/data/Subdet1HighPt_NoIPInfo_BDTG.weights.xml");
+    edm::FileInPath file6("BrownAnalysis/Configuration/data/Subdet2HighPt_NoIPInfo_BDTG.weights.xml");
 
 
     mva->Initialize("BDTG Method",

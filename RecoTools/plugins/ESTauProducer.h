@@ -1,6 +1,6 @@
 // system include files
 #include <memory>
-#include "UWAnalysis/RecoTools/interface/SmearedParticleMaker.h"
+#include "BrownAnalysis/RecoTools/interface/SmearedParticleMaker.h"
 
 #include "DataFormats/HepMCCandidate/interface/GenParticleFwd.h"
 #include "DataFormats/HepMCCandidate/interface/GenParticle.h"

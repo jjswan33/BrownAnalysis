@@ -1,4 +1,4 @@
-#include "UWAnalysis/RecoTools/plugins/CandidateCrossCleaner.h"
+#include "BrownAnalysis/RecoTools/plugins/CandidateCrossCleaner.h"
 #include "FWCore/Framework/interface/MakerMacros.h"
 
 typedef CandidateCrossCleaner<reco::RecoChargedCandidate,PATMuPair> TrackCrossCleanerFromDiMuon;

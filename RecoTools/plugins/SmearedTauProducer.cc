@@ -1,4 +1,4 @@
-#include "UWAnalysis/RecoTools/plugins/SmearedTauProducer.h"
+#include "BrownAnalysis/RecoTools/plugins/SmearedTauProducer.h"
 
 SmearedTauProducer::SmearedTauProducer(const edm::ParameterSet& iConfig):
     src_(iConfig.getParameter<edm::InputTag>("src")),  

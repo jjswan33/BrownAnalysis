@@ -3,7 +3,7 @@
 // Package:    PATMuonTrackVetoSelector
 // Class:      PATMuonTrackVetoSelector
 // 
-/**\class PATMuonTrackVetoSelector PATMuonTrackVetoSelector.cc UWAnalysis/PATMuonTrackVetoSelector/src/PATMuonTrackVetoSelector.cc
+/**\class PATMuonTrackVetoSelector PATMuonTrackVetoSelector.cc BrownAnalysis/PATMuonTrackVetoSelector/src/PATMuonTrackVetoSelector.cc
 
  Description: <one line class summary>
 

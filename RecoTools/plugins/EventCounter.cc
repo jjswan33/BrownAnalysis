@@ -1,4 +1,4 @@
-#include "UWAnalysis/RecoTools/plugins/EventCounter.h"
+#include "BrownAnalysis/RecoTools/plugins/EventCounter.h"
 
 EventCounter::EventCounter(const edm::ParameterSet& iConfig):
   name_(iConfig.getParameter<std::string>("name"))
