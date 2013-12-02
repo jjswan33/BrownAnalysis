@@ -7,7 +7,7 @@
 #include "FWCore/Common/interface/TriggerNames.h"
 #include "DataFormats/Common/interface/TriggerResults.h"
 #include "DataFormats/PatCandidates/interface/TriggerPath.h"
-#include "UWAnalysis/NtupleTools/interface/NtupleFillerBase.h"
+#include "BrownAnalysis/NtupleTools/interface/NtupleFillerBase.h"
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
 
 //

@@ -1,5 +1,5 @@
-#ifndef __UWAnalysis_DataFormats_Analysis_CompositeRefCandidateT1T2MEt_h__
-#define __UWAnalysis_DataFormats_Analysis_CompositeRefCandidateT1T2MEt_h__
+#ifndef __BrownAnalysis_DataFormats_Analysis_CompositeRefCandidateT1T2MEt_h__
+#define __BrownAnalysis_DataFormats_Analysis_CompositeRefCandidateT1T2MEt_h__
 
 
 
@@ -15,7 +15,7 @@
 
 #include "AnalysisDataFormats/TauAnalysis/interface/NSVfitResonanceHypothesisSummary.h"
 
-#include "UWAnalysis/DataFormats/interface/tauAnalysisAuxFunctions.h"
+#include "BrownAnalysis/DataFormats/interface/tauAnalysisAuxFunctions.h"
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
 
 

@@ -6,7 +6,7 @@
 #include "DataFormats/PatCandidates/interface/LookupTableRecord.h"
 #include <TTree.h>
 
-#include "UWAnalysis/NtupleTools/interface/NtupleFillerBase.h"
+#include "BrownAnalysis/NtupleTools/interface/NtupleFillerBase.h"
 
 //
 // class decleration
@@ -87,8 +87,8 @@ class StringBasedNtupleFiller : public NtupleFillerBase {
 };
 
 
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateTMEt.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateTMEt.h"
 #include "DataFormats/METReco/interface/PFMET.h"
 #include "DataFormats/METReco/interface/GenMET.h"
 typedef StringBasedNtupleFiller<reco::GenParticle> PATGenParticleFiller;

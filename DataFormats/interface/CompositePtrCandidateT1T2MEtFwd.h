@@ -1,8 +1,8 @@
-#ifndef UWAnalysis_DataFormats_CompositePtrCandidateT1T2MEtFwd_h
-#define UWAnalysis_DataFormats_CompositePtrCandidateT1T2MEtFwd_h
+#ifndef BrownAnalysis_DataFormats_CompositePtrCandidateT1T2MEtFwd_h
+#define BrownAnalysis_DataFormats_CompositePtrCandidateT1T2MEtFwd_h
 
 
-#include "UWAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
+#include "BrownAnalysis/DataFormats/interface/CompositePtrCandidateT1T2MEt.h"
 
 #include "DataFormats/Common/interface/Ref.h"
 #include "DataFormats/Common/interface/RefProd.h"
