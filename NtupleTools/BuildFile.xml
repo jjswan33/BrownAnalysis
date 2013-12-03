@@ -8,6 +8,7 @@
 <use   name="TrackingTools/TransientTrack"/>
 <use   name="RecoVertex/KalmanVertexFit"/>
 <use   name="classlib"/>
+<use   name="root"/>
 <export>
   <lib   name="1"/>
 </export>
