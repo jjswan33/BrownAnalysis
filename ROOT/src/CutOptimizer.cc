@@ -1,4 +1,4 @@
-#include "UWAnalysis/ROOT/interface/CutOptimizer.h"
+#include "BrownAnalysis/ROOT/interface/CutOptimizer.h"
 
 CutOptimizer::CutOptimizer()
 {}
