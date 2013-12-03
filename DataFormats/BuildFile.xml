@@ -5,6 +5,8 @@
 <use   name="DataFormats/PatCandidates"/>
 <use   name="AnalysisDataFormats/TauAnalysis"/>
 <use   name="rootrflx"/>
+<use   name="classlib"/>
+
 <export>
   <lib   name="1"/>
 </export>

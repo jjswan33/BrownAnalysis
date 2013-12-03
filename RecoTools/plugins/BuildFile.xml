@@ -37,4 +37,6 @@
   <use   name="root"/>
   <use   name="roottmva"/>
   <use   name="lhapdf"/>
+  <use   name="classlib"/>
+
 </library>
