@@ -16,7 +16,7 @@
 #include <Math/MinimizerOptions.h>
 #include "HiggsAnalysis/CombinedLimit/interface/VerticalInterpPdf.h"
 
-#include "UWAnalysis/StatTools/interface/plotter.h"
+#include "BrownAnalysis/StatTools/interface/plotter.h"
 
 
 int main (int argc, char* argv[]) 
