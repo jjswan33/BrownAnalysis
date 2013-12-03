@@ -14,7 +14,7 @@
 #include <RooStats/HypoTestResult.h>
 #include <Math/MinimizerOptions.h>
 
-#include "UWAnalysis/StatTools/interface/fitter.h"
+#include "BrownAnalysis/StatTools/interface/fitter.h"
 
 #include "HiggsAnalysis/CombinedLimit/interface/VerticalInterpPdf.h"
 
