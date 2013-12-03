@@ -23,4 +23,5 @@
   <use   name="UWAnalysis/DataFormats"/>
   <use   name="CommonTools/UtilAlgos"/>
   <use   name="root"/>
+  <use   name="classlib"/>
 </library>
