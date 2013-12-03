@@ -1,7 +1,7 @@
 // Original Author:  Joshua Swanson
 //         Created:  Wed 16 May 2012
 #include <TFile.h>
-#include "UWAnalysis/RecoTools/interface/VBFMVA.h"
+#include "BrownAnalysis/RecoTools/interface/VBFMVA.h"
 #include "TMVA/Tools.h"
 #include "TMVA/Reader.h"
 
