@@ -6,8 +6,8 @@ Move of UWAnalysis from UW CVS to Git
 
 Recipe:
 
-scram pro -n MyWorkingAreaName CMSSW CMSSW_5_3_3 
-cd MyWorkingAreaName/src
+scram pro -n MyWorkingAreaName CMSSW CMSSW_5_3_3
+cd MyWorkingAreaName
 cmsenv
 
 git clone https://github.com/jjswan33/BrownAnalysis.git BrownAnalysis
